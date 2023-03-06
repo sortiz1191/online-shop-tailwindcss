@@ -7,7 +7,7 @@ const Sidebar = (props) => {
   const {showMenu} = props
 
   return (
-    <div className={`bg-[#1F1D2B] z-5 rounded-tr-3xl rounded-br-3xl py-6 fixed lg:left-0 
+    <div className={`bg-[#1F1D2B] z-50 rounded-tr-3xl rounded-br-3xl py-6 fixed lg:left-0 
         top-0 w-28 h-full flex flex-col justify-between transition-all
         ${showMenu ? "left-0" : "-left-full"}`}
     >
